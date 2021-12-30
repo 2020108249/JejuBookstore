@@ -1,0 +1,74 @@
+insert into hstock(book_title, book_stock,book_writer,book_publisher,book_price)
+
+values("운동과 스포츠 생리학",1,"W. Larry Kenney, Jack H. Wilmore, David L. Costil 공저","대한미디어",33250);
+http://image.yes24.com/momo/TopCate327/MidCate007/32661431.jpg
+
+values("휴먼 퍼포먼스와 운동생리학",1,"정일규 저","대경북스",23750);
+http://image.yes24.com/momo/TopCate901/MidCate006/10624307.jpg
+
+values("새로운 케어 기술",1,"오타 히토시, 미요시 하루키 감수. 집필","그린홈",31500);
+https://image.yes24.com/goods/1775009/L
+
+values("정신질환의 진단 및 통계편람",1,"APA 저","학지사",53350);
+https://image.yes24.com/goods/17843603/L
+
+values("소아정신의학",1,"홍강의 저","학지사",48000);
+http://www.yes24.com/Product/Goods/15212184
+
+values("피부과 상담 실무",1,"성재영, 조미정 공저","군자출판사",25000);
+https://image.yes24.com/goods/14611431/L
+
+values("닥터 배의 술술 보건의학통계",1,"배정민 저","한나래",28000);
+https://image.yes24.com/goods/6756234/L
+
+values("손에 잡히는 의학용어",1,"김성수, 한은경, 남정혜, 이수재, 장미혜 공저","보문각",15000);
+https://image.yes24.com/goods/17832018/L
+
+values("근육뼈대계통의 기능해부학 및 운동학",1,"도널드 뉴만 저","범문에듀케이션",58200);
+https://image.yes24.com/goods/63811646/L
+
+values("NASM의퍼스널 트레이닝",1,"Micheal A.Clark 저","한미의학",45000);
+https://image.yes24.com/goods/57715168/L
+
+values("운동 기능해부학",1,"R.T. FLOYD 저 | 정진욱 역","한미의학",24000);
+https://image.yes24.com/goods/71837779/L
+
+values("유전공학의 이해",1,"남상욱, 권혁빈, 최선심 공저","라이프사이언스",28000);
+https://image.yes24.com/sysimage/renew/loadSpace.png
+
+values("인체생명과학(16판)",1,"실비아 마더 저","라이프사이언스",39000);
+https://image.yes24.com/goods/89525674/L
+
+values("파워 운동생리학(11판)",1,"Scott K.Powers 외 2 저","라이프사이언스",45000);
+https://image.yes24.com/goods/102910081/L
+
+values("근골격계 질환의 통증해부학",1,"Shintaro Kudo 저","신흥메드싸이언스",42750);
+https://image.yes24.com/goods/8966580/L
+
+values("근골격계 촉진법",1,"Shigeyuki Suzuki 저","신흥메드싸이언스",42750);
+https://image.yes24.com/goods/23462106/L
+
+values("알기쉬운 약물 부작용 메커니즘 ",1,"오오츠 후미코 저","정다와",19800);
+https://image.yes24.com/goods/33730882/L
+
+values("허리 치료와 역학",1,"Stuart McGill 저","영문출판사",25000);
+https://image.yes24.com/goods/42643840/L
+
+values("근막이란 무엇이며 왜 중요한가?",1,"데이비드 레손닥 저","영문출판사",20000);
+https://image.yes24.com/goods/74404742/L
+
+values("키 무브먼트",1,"Ginger Garner 저","영문출판사",45000);
+https://image.yes24.com/goods/89913635/L
+
+values("신경정신의학",1,"대한신경정신의학회","아이엠이즈컴퍼니",65000);
+https://image.yes24.com/goods/37529999/L
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>제주서점</title>
+        <link rel="stylesheet" href="design.css" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+    <script type="text/javascript">
+    function LOGIN(){
+      var userID=document.getElementById("userID").value;
+      var userPW=document.getElementById("userPW").value;
+      if(userID=="hnu" && userPW=="1234"){
+        window.location.href="hnu_manageselect.php";
+      }
+      else{
+        alert("아이디 또는 비밀번호가 잘못되었습니다.");
+      }
+    }
+    </script>
+    <body>
+        <div id="logo">
+            <h1 id="main_logo">제주서점(HNU)</h1>
+        </div>
+        <div class="back">
+        <form>
+            <div class="container">
+              <form name="login_form" method="get">
+                <input type="text" name="userID" id ="userID" placeholder="ID"><br>
+                <input type="password" placeholder="PASSWORD" name="userPW" id="userPW"><br>
+              </form>
+                <button type="button" onclick="LOGIN();" style="font-size:20px; background-color: limegreen" id="signinButton">Login</button>
+            </div>
+        </form>
+        </div>
+    </body>
+
+</html>

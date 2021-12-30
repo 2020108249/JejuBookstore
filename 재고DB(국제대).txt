@@ -1,0 +1,54 @@
+1.간호
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("여성건강간호학.2",3,"박영주, 심미정, 김혜자, 전나미, 김혜원 저","선학출판사",20000);
+
+2.기계공학과
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("기계요소설계",3,"김정기 저","현문사",42000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("기초유체역학",3,"홍영호 저","화수목",16000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("프로그래밍&가공 CNC 선반/ 머시닝 센터 실기 실습",3,"하종국, 이학재, 김상훈 저","일진사",28000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("Inventor 기계제도 실기 실무",3,"이강원 저","건기원",36000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("기계제도 & 도면해독",3,"신동명, 황석렬, 박재우 저","미광",22200);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("기계공학도를 위한 알기 쉬운 실용 기계재료 ",3,"이건이, 최영 저","시그마프레스",25000);
+
+
+3.전기공학과
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("기초부터 시작하는 PLC: 멜섹Q ",3,"정완보 저","한빛아카데미",23000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("전기설비기술기준",3,"김세동, 이종필 저","동일출판사",26000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("전력전자공학(제3판)",3,"노의철 저","문운당",32000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("최신 전기설비설계(2011)",3,"강동귀, 이경섭, 이상헌, 이종필, 최용성 저","문운당",29000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("최신 송배전공학",3,"송길영 저","동일출판사",29000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("전력시설물 진단기술",3,"권형욱, 박영섭, 유상봉 저","기다리",35000);
+
+
+4. 상담심리치료학과
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("아동 심리평가와 검사",3,"곽금주 저","학지사",18000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("임상 미술치료 이론과 실제",3,"김수경, 김은화, 박경화, 신재균, 이미나 저","공동체" ,25000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("임상적용을 위한 미술치료기법",3,"김인선, 김설화, 전은청, 오승주 저","학지사",20000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("활동을 통한 성격심리학의 이해",3,"김춘경, 김숙희, 최은주, 류미향, 조민규 저","학지사",20000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("인간 이해를 위한 성격심리학",3,"권석만 저","학지사",25000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("재활상담의 이론과 실제",3,"강윤주 저","학지사",18000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("임상 현장을 위한 아동 미술치료 프로그램",3,"한영희, 김지영 저","어가",19000);
+insert into istock(book_title, book_stock, book_writer, book_publisher, book_price)
+values("발달정신병리학",3,"Linda Wilmshurst 저","학지사",20000);
+
+
+

@@ -1,0 +1,52 @@
+[jejulibrary]
+
+1) mileage	//마일리지
+테이블 생성
+CREATE TABLE mileage(
+custom_name varchar(10) NOT NULL,
+custom_hp varchar(15) NOT NULL,
+custom_mileage int,
+PRIMARY KEY(custom_name, custom_hp)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+내용추가
+INSERT INTO mileage(custom_name, custom_hp, custom_mileage)
+VALUES('김미숙', '01012345678', 1000),
+VALUES('한진주', '01013445278', 2000),
+VALUES('홍길동', '01023745208', 10000),
+VALUES('한코딩', '01023745208', 45000),
+VALUES('오길동', '01023749208', 30000);
+
+2) booksub	//도서신청
+CREATE TABLE booksub(
+book_id int NOT NULL AUTO_INCREMENT,
+book_title varchar(30) NOT NULL,
+book_name varchar(20),
+book_pw MEDIUMBLOB,
+book_content text NOT NULL,
+book_date date,
+book_file varchar(100),
+PRIMARY KEY(book_id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+3) post		//게시판
+CREATE TABLE post(
+post_title varchar(30) NOT NULL,
+post_name varchar(20),
+post_pw MEDIUMBLOB,
+post_content text NOT NULL,
+post_date date,
+post_id int NOT NULL AUTO_INCREMENT,
+post_file varchar(100),
+PRIMARY KEY(post_id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+4) stock	//재고
+CREATE TABLE stock(
+stock_id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+book_title varchar(30),
+book_stock int NOT NULL,
+book_writer varchar(30),
+book_publisher varchar(30),
+book_price int
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

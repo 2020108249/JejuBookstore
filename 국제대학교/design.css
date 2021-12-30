@@ -1,0 +1,109 @@
+#logo{
+    background-color: #c6e1b5;
+    padding:10px 60px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.hmenu{
+    text-align: center;
+}
+.h {
+    display: inline;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.vmenu{
+    text-align: left;
+    display:block;
+    font-size: 20px;
+    float: left;
+    margin-right: 10%;
+    height: 100px;
+
+}
+.vmenu li{
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+.mul{
+    column-count: 3;
+}
+#serch{
+    display: inline;
+}
+.multi{
+    float:left;
+    height: 300px;
+    margin:10px 10px;
+    border-style: solid;
+    border-color:#c6e1b5;
+    border-radius: 20px;
+    margin:20px 20px;
+    padding:25px 25px;
+}
+.form{
+    margin-left: 10%;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+    height:100%;
+    padding-top: 90px;
+    font-size: 35px;
+}
+.container2{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+    height:100%;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.back::after{
+    width:100%;
+    height:100%;
+    content:"";
+    background: url('https://www.jeju.ac.kr/files/editor/d8993a27-df2d-4558-9ef3-eb24c9a046a7.jpg') no-repeat center;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+    opacity: 0.2;
+}
+input{
+    width: 300px;
+    height: 30px;
+    font-size:20px;
+}
+.bt_se{
+    float:right;
+}
+.bu{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.write{
+  text-align: center;
+}
+.write td{
+  padding : 10px;
+}
+#글쓰기{
+  text-align: center;
+}
+#search_button{
+  width:70px;
+  height:40px;
+  font-size: 20px
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>제주서점</title>
+        <link rel="stylesheet" href="design.css" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+    <script type="text/javascript">
+  //로그인 함수 구현
+    function LOGIN(){
+      var userID=document.getElementById("userID").value;  //ID입력받아 userID에 저장
+      var userPW=document.getElementById("userPW").value;  //PW입력받아 userPW에 저장
+      if(userID=="inu" && userPW=="1234"){  //입력값과 주어진 값 비교
+        window.location.href="manageselect.php";
+      }
+      else{
+        alert("아이디 또는 비밀번호가 잘못되었습니다.");
+      }
+    }
+    </script>
+    <body>
+        <div id="logo">
+            <h1 id="main_logo"><a href="../제주대학교/home.html">제주서점(INU)</a></h1>
+        </div>
+        <div class="back">
+        <form><!--입력받는 틀-->
+            <div class="container">
+              <form name="login_form" method="get">
+                <input type="text" name="userID" id ="userID" placeholder="ID"><br>
+                <input type="password" placeholder="PASSWORD" name="userPW" id="userPW"><br>
+              </form>
+                <button type="button" onclick="LOGIN();" style="font-size:20px; background-color: limegreen">Login</button>
+            </div>
+        </form>
+        </div>
+    </body>
+
+</html>
